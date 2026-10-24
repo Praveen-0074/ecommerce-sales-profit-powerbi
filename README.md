@@ -14,6 +14,22 @@ The dashboard provides insights into sales performance, profitability, customer 
 - Microsoft Excel
 - Data Visualization
 
+- ## 🧹 Data Cleaning & Transformation
+
+* Removed duplicate records.
+* Handled missing and blank values.
+* Corrected data types.
+* Cleaned text values using Power Query.
+
+## 🗂️ Data Model
+
+Designed a Star Schema data model using one fact table and five dimension tables.
+
+* **Fact Table:** Fact_Orders
+* **Dimension Tables:** Dim_Customer, Dim_Product, Dim_Date, Dim_Store, Dim_Payment
+* Established one-to-many relationships between the fact and dimension tables.
+
+
 ## 📊 Dashboard Pages
 
 ### Page 1 — Executive Overview
@@ -66,11 +82,13 @@ Created DAX measures for:
 - Average Sales
 - Premium Orders
 
-## 💡 Key Insights
+## 💡 Key Business Insights
 
-The dashboard enables analysis of sales and profitability across categories, states, customer segments, products, years, and payment methods.
-
-Interactive filters allow users to explore the data and identify business performance trends.
+* Analyzed sales and profit performance across different product categories.
+* Compared sales trends across multiple years and states.
+* Evaluated customer segments and identified the top 10 products by sales.
+* Analyzed profit margins across product categories.
+* Used interactive filters to explore sales performance by year, category, sub-category, and brand.
 
 ## 🖼️ Dashboard Screenshots
 
